@@ -1,0 +1,30 @@
+﻿Swapi:
+
+
+1. swapi.dev/api/people/4  
+2. swapi.dev/api/planets/?search=Alderaan or swapi.dev/api/planets/2
+3. swapi.dev/api/starships/?search=Falcon or swapi.dev/api/startships/10
+4.        https://swapi.dev/api/species/2/ & https://swapi.dev/api/species/2/
+5. https://swapi.dev/api/films/1/  https://swapi.dev/api/films/2/ https://swapi.dev/api/films/3 https://swapi.dev/api/films/4 https://swapi.dev/api/films/5 https://swapi.dev/api/films/6/
+6. https://swapi.dev/api/starships/?search=Millennium
+
+
+Social Mountain:
+
+
+1. POST accepts body, wants a string to be passed in.
+2. An array of all posts
+3. DELETE: https://practiceapi.devmountain.com/api/posts/555
+4. Code 200, code 409
+5. https://practiceapi.devmountain.com/api/posts
+
+
+5{       "id": 429,
+       "text": "Ryan",
+       "date": "26 Jan 2022"
+   },
+1. https://practiceapi.devmountain.com/api/posts?id=429 body obj {‘Green’}
+2. https://practiceapi.devmountain.com/api/posts/filter?text=blue
+3. Content type = json, charset = UTF-8
+4. Request missing req.query.id or req.body.text
+5. The response is to return all posts, since we aren’t using /filter it won’t search for the given query
